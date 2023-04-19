@@ -1,0 +1,56 @@
+// Import all of Bootstrap's CSS
+@import "/node_modules/bootstrap/scss/bootstrap";
+//variables
+@import '../styles/partials/variables.scss';
+
+//import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Unbounded:wght@200;300;400&display=swap');
+
+//font-family: 'Inter', sans-serif;
+//font-family: 'Unbounded', cursive;
+
+//classi btn color
+.bg_blue {
+    background: $deliveboo-secondary;
+}
+
+.bg_orange {
+    background-color: $deliveboo-primary;
+}
+
+//classi btn hover color
+.hover_blu_light {
+    &:hover {
+        background: $deliveboo-secondary-light;
+    }
+}
+
+.hover_blu_light {
+    &:hover {
+        background: $deliveboo-primary;
+    }
+}
+
+
+
+//layout
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Unbounded', cursive;
+}
